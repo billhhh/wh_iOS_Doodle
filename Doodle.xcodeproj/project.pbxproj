@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616023C7157CBEB5004D396E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616023C6157CBEB5004D396E /* UIKit.framework */; };
+		616023C9157CBEB5004D396E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616023C8157CBEB5004D396E /* Foundation.framework */; };
+		616023CB157CBEB5004D396E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616023CA157CBEB5004D396E /* CoreGraphics.framework */; };
+		616023D1157CBEB5004D396E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 616023CF157CBEB5004D396E /* InfoPlist.strings */; };
+		616023D3157CBEB5004D396E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616023D2157CBEB5004D396E /* main.m */; };
+		616023D7157CBEB5004D396E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616023D6157CBEB5004D396E /* AppDelegate.m */; };
+		616023DF157CBF27004D396E /* DoodleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 616023DE157CBF27004D396E /* DoodleView.m */; };
+		616023E7157CF924004D396E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616023E6157CF924004D396E /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		616023C2157CBEB5004D396E /* Doodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		616023C6157CBEB5004D396E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		616023C8157CBEB5004D396E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		616023CA157CBEB5004D396E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		616023CE157CBEB5004D396E /* Doodle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doodle-Info.plist"; sourceTree = "<group>"; };
+		616023D0157CBEB5004D396E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		616023D2157CBEB5004D396E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		616023D4157CBEB5004D396E /* Doodle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Doodle-Prefix.pch"; sourceTree = "<group>"; };
+		616023D5157CBEB5004D396E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		616023D6157CBEB5004D396E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		616023DD157CBF27004D396E /* DoodleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoodleView.h; sourceTree = "<group>"; };
+		616023DE157CBF27004D396E /* DoodleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoodleView.m; sourceTree = "<group>"; };
+		616023E5157CF924004D396E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		616023E6157CF924004D396E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616023BF157CBEB5004D396E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616023C7157CBEB5004D396E /* UIKit.framework in Frameworks */,
+				616023C9157CBEB5004D396E /* Foundation.framework in Frameworks */,
+				616023CB157CBEB5004D396E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616023B7157CBEB5004D396E = {
+			isa = PBXGroup;
+			children = (
+				616023CC157CBEB5004D396E /* Doodle */,
+				616023C5157CBEB5004D396E /* Frameworks */,
+				616023C3157CBEB5004D396E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616023C3157CBEB5004D396E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616023C2157CBEB5004D396E /* Doodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616023C5157CBEB5004D396E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				616023C6157CBEB5004D396E /* UIKit.framework */,
+				616023C8157CBEB5004D396E /* Foundation.framework */,
+				616023CA157CBEB5004D396E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		616023CC157CBEB5004D396E /* Doodle */ = {
+			isa = PBXGroup;
+			children = (
+				616023D5157CBEB5004D396E /* AppDelegate.h */,
+				616023D6157CBEB5004D396E /* AppDelegate.m */,
+				616023E5157CF924004D396E /* RootViewController.h */,
+				616023E6157CF924004D396E /* RootViewController.m */,
+				616023DD157CBF27004D396E /* DoodleView.h */,
+				616023DE157CBF27004D396E /* DoodleView.m */,
+				616023CD157CBEB5004D396E /* Supporting Files */,
+			);
+			path = Doodle;
+			sourceTree = "<group>";
+		};
+		616023CD157CBEB5004D396E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616023CE157CBEB5004D396E /* Doodle-Info.plist */,
+				616023CF157CBEB5004D396E /* InfoPlist.strings */,
+				616023D2157CBEB5004D396E /* main.m */,
+				616023D4157CBEB5004D396E /* Doodle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616023C1157CBEB5004D396E /* Doodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616023DA157CBEB5004D396E /* Build configuration list for PBXNativeTarget "Doodle" */;
+			buildPhases = (
+				616023BE157CBEB5004D396E /* Sources */,
+				616023BF157CBEB5004D396E /* Frameworks */,
+				616023C0157CBEB5004D396E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doodle;
+			productName = Doodle;
+			productReference = 616023C2157CBEB5004D396E /* Doodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616023B9157CBEB5004D396E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 616023BC157CBEB5004D396E /* Build configuration list for PBXProject "Doodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 616023B7157CBEB5004D396E;
+			productRefGroup = 616023C3157CBEB5004D396E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616023C1157CBEB5004D396E /* Doodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616023C0157CBEB5004D396E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616023D1157CBEB5004D396E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616023BE157CBEB5004D396E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616023D3157CBEB5004D396E /* main.m in Sources */,
+				616023D7157CBEB5004D396E /* AppDelegate.m in Sources */,
+				616023DF157CBF27004D396E /* DoodleView.m in Sources */,
+				616023E7157CF924004D396E /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		616023CF157CBEB5004D396E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616023D0157CBEB5004D396E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616023D8157CBEB5004D396E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		616023D9157CBEB5004D396E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616023DB157CBEB5004D396E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doodle/Doodle-Prefix.pch";
+				INFOPLIST_FILE = "Doodle/Doodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		616023DC157CBEB5004D396E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doodle/Doodle-Prefix.pch";
+				INFOPLIST_FILE = "Doodle/Doodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616023BC157CBEB5004D396E /* Build configuration list for PBXProject "Doodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616023D8157CBEB5004D396E /* Debug */,
+				616023D9157CBEB5004D396E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616023DA157CBEB5004D396E /* Build configuration list for PBXNativeTarget "Doodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616023DB157CBEB5004D396E /* Debug */,
+				616023DC157CBEB5004D396E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616023B9157CBEB5004D396E /* Project object */;
+}
